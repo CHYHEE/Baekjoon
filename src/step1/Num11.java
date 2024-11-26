@@ -2,7 +2,7 @@ package step1;
 
 import java.util.Scanner;
 
-public class Add11382 {
+public class Num11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

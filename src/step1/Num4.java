@@ -2,11 +2,12 @@ package step1;
 
 import java.util.Scanner;
 
-public class N_10926 {
+public class Num4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
 
-        String id = scanner.nextLine();
-        System.out.println(id + "??!");
+        System.out.println(a * b);
     }
 }

@@ -1,7 +1,7 @@
 package step2;
 
 import java.util.Scanner;
-public class Dice {
+public class Num7 {
 
     public static void main(String[] args) {
 

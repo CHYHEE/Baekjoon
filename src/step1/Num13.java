@@ -1,6 +1,6 @@
 package step1;
 
-public class DogPrint {
+public class Num13 {
     public static void main(String[] args) {
         //|\_/|
         //|q p|   /}

@@ -2,7 +2,7 @@ package step3;
 
 import java.util.Scanner;
 
-public class Dan {
+public class Num1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,7 +2,7 @@ package step1;
 
 import java.util.Scanner;
 
-public class Mul2588 {
+public class Num10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

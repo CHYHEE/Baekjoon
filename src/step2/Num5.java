@@ -2,7 +2,7 @@ package step2;
 
 import java.util.Scanner;
 
-public class Clock {
+public class Num5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,7 +2,7 @@ package step1;
 
 import java.util.Scanner;
 
-public class Div {
+public class Num5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
