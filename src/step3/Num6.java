@@ -1,7 +1,6 @@
 package step3;
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.StringTokenizer;
 
 public class Num6 {
