@@ -6,15 +6,20 @@ public class Num4 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int arr[] = new int[9];
-        int max = arr[0]; // 최댓값을 담을 변수
-        int index = 0; // 최댓값의 위치를 담는 변수
 
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
-            if (max < arr[i]) {
-                max = arr[i];
-                index = i+1;
+        int[] num = new int[9];
+
+        for (int i = 0; i < num.length; i++) {
+            num[i] = sc.nextInt();
+        }
+
+        int max = num[0];
+        int index = 0;
+
+        for(int j = 0; j < num.length; j++) {
+            if (num[j] > max) {
+                max = num[j];
+                index = j + 1;
             }
         }
         System.out.println(max);
