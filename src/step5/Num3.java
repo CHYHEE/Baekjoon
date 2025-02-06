@@ -9,18 +9,10 @@ public class Num3 {
 
         int n = sc.nextInt();
 
-        String name[] = new String[n];
-
-        for(int i=0;i<n;i++) {
-            String str = sc.next();
-            name[i] = str.substring(0,1)+ str.substring(str.length()-1,str.length());
+        for (int i = 0; i < n; i++) {
+            String s = sc.next();
+            System.out.println(s.charAt(0));
+            System.out.println(s.charAt(s.length() - 1));
         }
-
-        sc.close();
-
-        for(int i=0;i<n;i++) {
-            System.out.println(name[i]);
-        }
-
     }
 }
