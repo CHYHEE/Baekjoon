@@ -12,7 +12,8 @@ public class Num5 {
         int sum = 0;
 
         for(int i=0;i<n;i++) {
-            sum += str.charAt(i) - '0'; // '0'을 하면 문자를 정수로 변환할 수 있다.
+            // '0'을 하면 문자를 정수로 변환할 수 있다.
+            sum += str.charAt(i) - '0';
         }
 
         System.out.println(sum);
